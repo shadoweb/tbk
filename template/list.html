@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta http-equiv='content-language' content='zh-CN'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>{$q}优惠券大全{$q}批发价格{$q}品牌厂家直销－{$q}产品推荐网</title>
+    <meta name="keywords" content="{$q},{$q}价格,{$q}优惠券,{$q}批发,{$q}品牌" />
+    <meta name="description" content="{$q}产品推荐网提供{$q}价格,{$q}优惠券,{$q}批发,{$q}品牌等{$q}相关的产品优惠信息大全。" />
+  </head>
+  <body>
+<div style='width:100%;margin:25px auto;text-align:center;'><h1>{$q}优惠券大全推荐</h1>
+
+    <div style="width:100%;margin:25px auto;text-align:center;">
+            <form method="get" name="search" action="./search.php">
+                <input style="width:150px;height:32px;line-height:32px;border:0;background:#eee;padding:3px 5px;" type="text" name="q" size="15" class="text" placeholder="输入查询词" value="{$q}">
+                <input style="width:50px;height:32px;line-height:32px;border:0;" type="submit" value="搜索" class="button">
+            </form>
+    </div>
+    
+    {$list}
+    <p style='width:100%;margin:25px auto;text-align:center;'>
+      {$pagestr}
+    </p>
+</div>
+</body>
+</html>

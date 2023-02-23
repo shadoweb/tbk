@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /da*
+Disallow: /js*
+Disallow: /te*
+
+User-agent: SeekportBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
